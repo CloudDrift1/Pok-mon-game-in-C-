@@ -1,0 +1,55 @@
+name: oran berry
+is consumable: True
+effect type: heal_absolute
+effect: 20 
+condition type: hp_below_threshold
+condition: 0.5
+
+name: leftovers
+is consumable: False
+effect type: heal_relative
+effect: 0.125
+condition type: end_of_turn
+condition: none
+
+name: charcoal
+is consumable: False
+effect type: boost_move_power
+effect: 1.2
+condition type: move_type
+condition: fire
+
+name: black belt
+is consumable: False
+effect type: boost_move_power
+effect: 1.2
+condition type: move_category
+condition: physical
+
+name: shell bell
+is consumable: False
+effect type: lifesteal
+effect: 0.2
+condition type: damage_done
+condition: none
+
+name: fire gem
+is consumable: True
+effect type: boost_move_power
+effect: 1.5
+condition type: move_type
+condition: fire
+
+name: water gem
+is consumable: True
+effect type: boost_move_power
+effect: 1.5
+condition type: move_type
+condition: water
+
+name: grass gem
+is consumable: True
+effect type: boost_move_power
+effect: 1.5
+condition type: move_type
+condition: grass
