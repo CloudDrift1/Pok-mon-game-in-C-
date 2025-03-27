@@ -1,4 +1,4 @@
-Pokémon Game - C++
+# Pokémon Game in C++
 
 A console based implementation of Pokémon game in C++.
 
