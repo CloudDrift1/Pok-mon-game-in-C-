@@ -1,6 +1,6 @@
 # Pokémon Game in C++
 
-A console based implementation of Pokémon game in C++.
+A console based implementation of Pokémon game in C++. Refer to the game_rules.pdf file for more details.
 
 
 To run the game, you will need a C++11 (or later) compliant compiler. The following tools and libraries are required:
